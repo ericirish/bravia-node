@@ -1,0 +1,24 @@
+{
+  "name": "bravia-node",
+  "version": "0.0.1",
+  "description": "Control your Sony Bravia Television with NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Eric Irish <ecirish@gmail.com> (http://ericirish.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "node-uuid": "^1.4.2",
+    "request": "^2.79.0",
+    "tough-cookie-filestore": "0.0.1",
+    "wake_on_lan": "0.0.4"
+  },
+  "devDependencies": {
+    "debug": "^2.3.3"
+  }
+}
